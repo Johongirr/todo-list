@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --primary-color: #777;
+}
+.border-grey {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+#header {
+    background-color: green;
+    padding: 2rem;
+}
+.row-cols-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title {
+    color: #fff;
+    font-size: 3.2rem;
+}
+.header__title, .user-input {
+    flex: 1;
+}
+.user-input {
+    border: 0;
+    color: var(--primary-color);
+    padding: 0.6rem 0.3rem;
+    font-size: 1.2rem;
+}
+
+main {
+    padding-top: 2rem;
+}
+.card {
+    padding: 2rem 1.4rem;
+}
+.card__title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+form {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+form input {
+    padding: 0.6rem 0.2rem;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+form button {
+    border: 0;
+    background-color: black;
+    color: #fff;
+    padding: 0.9rem;
+    border-radius: 5px;
+    cursor: crosshair;
+}
+
+.card .card__items-title {
+    font-size: 2rem;
+    margin: 1.2rem 0  0.7rem 0;
+}
+.card .items__container {
+    padding: 0.7rem 1rem;
+}
+.card .item__name {
+    color: var(--primary-color);
+}
+.card .item__remove {
+    background-color: darkred;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: crosshair;
+}
+
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    #header .header__title {
+        font-size: 2.3rem;
+    }
+}
