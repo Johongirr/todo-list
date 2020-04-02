@@ -7,7 +7,7 @@ JavaScript
 
 #### Author
 
-:man: Johongir
+:man: Johongir\
 [Github](https://github.com/Johongirr)\
 [CodeWars](https://www.codewars.com/users/Johongirmdmdmd?refreshed=true)
 
